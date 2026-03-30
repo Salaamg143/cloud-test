@@ -7,8 +7,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 # =============================================
 # APNA TOKEN YAHAN DAALO
 # =============================================
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "YOUR_ANTHROPIC_API_KEY")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8680921366:AAE0HV3W-zNOj1fqjwwLxcg-6eU8TgcIE6A")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "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")
 
 # =============================================
 logging.basicConfig(
